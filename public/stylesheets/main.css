@@ -1,0 +1,37 @@
+body {
+    background-color: #cccccc;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+.navbar-default {
+    background-color: #555555;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #d0d0d0;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+    color: #eeeeee;
+}
+
